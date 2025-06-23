@@ -28,7 +28,7 @@ export const DATA_FOR_PRODUCT_CARD: ProductType[] = [
     title: 'Puppeteer plugin to solve \n reCAPTCHAs \n automatically',
     rating: 4.6,
     reviews: 456,
-    isOfficial: false,
+    isOfficial: true,
     anySite: 'This software is designed to work with any site',
     description: `Solves reCAPTCHAs automatically, using a single line of code.`,
     price: '$67',
