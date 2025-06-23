@@ -26,7 +26,7 @@ const ProductDetailsDesctop = ({ product }: PageProps) => {
         <img
           src={Official}
           className={cn(`w-[143px] h-24px ml-[5px] text-tertiary`, {
-            hidden: product.isOfficial,
+            hidden: !product.isOfficial,
           })}
         />
       </div>

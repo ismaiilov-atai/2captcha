@@ -15,7 +15,7 @@ export const DATA_FOR_PRODUCT_CARD: ProductType[] = [
     title: '2Captcha solver',
     rating: 4.6,
     reviews: 456,
-    isOfficial: false,
+    isOfficial: true,
     anySite: 'This software is designed to work with any site',
     description: `Extension for the Google Chrome browser that automatically recognizes captchas such as ReCaptcha V2, V3, GeeTest, Arkose Labs FunCaptcha, Human Captcha and others.`,
     price: 'free',

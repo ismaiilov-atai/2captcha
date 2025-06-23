@@ -39,7 +39,7 @@ const ProductCard = ({ product }: PageProps) => {
             className={cn(
               `w-[143px] h-24px text-tertiary mt-[13px] sm:hidden`,
               {
-                hidden: product.isOfficial,
+                hidden: !product.isOfficial,
               }
             )}
           />
