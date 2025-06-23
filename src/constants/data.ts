@@ -5,7 +5,7 @@ import type { ProductType } from '../types/product_types'
 import PuppDesctop from '../assets/pupp/pupp_desk.svg'
 import PuppMobile from '../assets/pupp/pupp_mobile.svg'
 import JSDesctop from '../assets/js_logo/js_desk.svg'
-import JSMobile from '../assets/js_logo/js_desk.svg'
+import JSMobile from '../assets/js_logo/js_mobile.svg'
 
 
 
