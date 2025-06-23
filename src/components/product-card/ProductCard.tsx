@@ -20,7 +20,7 @@ const ProductCard = ({ product }: PageProps) => {
       className={cn(
         `space-y-[16px] relative card bg-product-card w-[760px] pt-[12px] pb-[13px] px-[20px] ${card_mobile_styles}`
       )}>
-      <p className='absolute right-[12px] max-sm:bottom-0 text-primary font-primary-weight'>
+      <p className='absolute right-[20px] max-sm:right-[15px] max-sm:bottom-[17px] text-primary font-primary-weight'>
         {product.price}
       </p>
       <section className='flex gap-[15px] items-start'>
