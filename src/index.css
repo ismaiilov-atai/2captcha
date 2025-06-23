@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Manrope';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(255, 255, 255, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-product-card: rgba(248, 249, 251, 1);
+  --color-product-card-border: #e1eaf6;
+  --color-primary: #00a1b3;
+  --color-title: #333333;
+  --color-tertiary: #5b6a7d;
+  --spacing-mobile-card-x: 15px;
+  --spacing-mobile-card-y: 20px;
+  --font-manrope: 'Manrope', 'sans-serif';
+  --font-weight-primary-weight: 600;
+}
+
+@layer components {
+  .card {
+    background-color: var(--color-product-card);
+    border-radius: 10px;
+    box-shadow: var(--shadow-xl);
+    border: 1px solid rgba(225, 234, 246, 1);
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .secondary-text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
