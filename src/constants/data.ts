@@ -18,7 +18,7 @@ export const DATA_FOR_PRODUCT_CARD: ProductType[] = [
     isOfficial: true,
     anySite: 'This software is designed to work with any site',
     description: `Extension for the Google Chrome browser that automatically recognizes captchas such as ReCaptcha V2, V3, GeeTest, Arkose Labs FunCaptcha, Human Captcha and others.`,
-    price: 'free',
+    price: 'Free',
     icon: {
       desctop: CaptchaDesctop,
       mobile: CaptchaMobile
@@ -44,7 +44,7 @@ export const DATA_FOR_PRODUCT_CARD: ProductType[] = [
     isOfficial: false,
     anySite: 'This software is designed to work with any site',
     description: `JavaScript npm package for easy integration with the API of 2captcha captcha solving service to bypass recaptcha, funcaptcha, geetest and solve any other captchas.`,
-    price: 'free',
+    price: 'Free',
     icon: {
       desctop: JSDesctop,
       mobile: JSMobile

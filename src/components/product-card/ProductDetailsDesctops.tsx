@@ -10,13 +10,13 @@ interface PageProps {
 
 const ProductDetailsDesctop = ({ product }: PageProps) => {
   return (
-    <div className='flex flex-col gap-[15px] max-sm:hidden'>
+    <div className='flex flex-col gap-[16px] max-sm:hidden'>
       <p className=' flex items-center gap-[10px] secondary-text text-title'>
         <img src={CirlceCheck} className='inline w-[16px] h-[16px]' />
         {product.anySite}
       </p>
-      <div className='flex gap-2.5 '>
-        <p className='flex justify-center items-center gap-[5px] h-[24px] w-[60px] secondary-text font-primary-weight py-[5px] px-[10px]  bg-product-card-border rounded-xl'>
+      <div className='flex gap-[10px] '>
+        <p className='flex justify-center items-center gap-[5px] h-[24px] w-[60px] secondary-text font-primary-weight py-[5px] px-[10px]  bg-product-card-border rounded-[12px]'>
           {product.rating}
           <img src={Star} className='w-[14px] h-[14px]' />
         </p>
@@ -25,7 +25,7 @@ const ProductDetailsDesctop = ({ product }: PageProps) => {
         </p>
         <img
           src={Official}
-          className={cn(`w-[143px] h-24px ml-[5px] text-tertiary`, {
+          className={cn(`w-[143px] h-[24px] ml-[5px] text-tertiary`, {
             hidden: !product.isOfficial,
           })}
         />

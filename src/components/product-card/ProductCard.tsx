@@ -18,17 +18,17 @@ const ProductCard = ({ product }: PageProps) => {
   return (
     <article
       className={cn(
-        `space-y-[16px] relative card bg-product-card w-[760px] pt-[12px] pb-[13px] px-[20px] ${card_mobile_styles}`
+        `relative card bg-product-card w-[760px] min-h-[184px] space-y-[13px]  pt-[11px] px-[19px] ${card_mobile_styles}`
       )}>
-      <p className='absolute right-[20px] max-sm:right-[15px] max-sm:bottom-[17px] text-primary font-primary-weight'>
+      <p className='absolute text-[20px] right-[20px] max-sm:right-[15px] max-sm:bottom-[17px] text-primary font-primary-weight'>
         {product.price}
       </p>
-      <section className='flex gap-[15px] items-start'>
-        <figure className='h-[90px] w-[90px] max-sm:h-[60px] max-sm:w-[60px] flex justify-center items-center bg-white rounded-[5px]'>
+      <section className='flex gap-[20px] items-start'>
+        <figure className='h-[90px] w-[90px] self-end max-sm:h-[60px] max-sm:w-[60px] flex justify-center items-center bg-white rounded-[5px]'>
           <img src={product.icon[userDevice]} />
         </figure>
 
-        <div className='flex flex-col text-title'>
+        <div className='flex flex-col gap-[4px] text-title'>
           <p className='text-pretty font-primary-weight text-[20px] leading-[30px] max-sm:whitespace-pre-line'>
             {product.title}
             <img src={Right_arrow} className='inline w-[20px] h-[20px] ml-1' />
