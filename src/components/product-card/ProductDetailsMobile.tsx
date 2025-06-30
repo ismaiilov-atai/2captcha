@@ -13,7 +13,7 @@ const ProductDetailsMobile = ({ product }: PageProps) => {
         <img src={CirlceCheck} className='inline w-[16px] h-[16px]' />
         {product.anySite}
       </p>
-      <div className=' flex gap-2.5 sm:hidden'>
+      <div className='flex gap-2.5 sm:hidden'>
         <p className='flex justify-center items-center gap-[5px] h-[24px] w-[60px] secondary-text font-primary-weight py-[5px] px-[10px]  bg-product-card-border rounded-xl'>
           {product.rating} <img src={Star} className='w-[14px] h-[14px]' />
         </p>
